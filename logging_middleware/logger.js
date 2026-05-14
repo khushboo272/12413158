@@ -32,7 +32,8 @@ const logger = async (
         return response.data;
     }
     catch (error) {
-        console.log("logger error");
+        error.response?.data ||
+        error.message
     }
 };
 
