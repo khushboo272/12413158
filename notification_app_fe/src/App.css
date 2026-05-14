@@ -24,3 +24,37 @@ h1 {
 
     margin-bottom: 30px;
 }
+.loading {
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.error {
+
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.top-section {
+
+    margin-bottom: 15px;
+}
+
+.bottom-section {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.search-input {
+
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+}

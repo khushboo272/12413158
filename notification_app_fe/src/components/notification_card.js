@@ -1,16 +1,31 @@
 function NotificationCard({ item }) {
+
     return (
+
         <div className="notification-card">
-            <h3>
-                {item.title}
-            </h3>
-            <p>
-                User: {item.user_name}
-            </p>
-            <p>
-                Total Comments: {item.total_comments}
-            </p>
+
+            <div className="top-section">
+
+                <h3>
+                    {item.title}
+                </h3>
+
+            </div>
+
+            <div className="bottom-section">
+
+                <p>
+                    <strong>User:</strong> {item.user_name}
+                </p>
+
+                <p>
+                    <strong>Total Comments:</strong> {item.total_comments}
+                </p>
+
+            </div>
+
         </div>
     );
 }
+
 export default NotificationCard;
